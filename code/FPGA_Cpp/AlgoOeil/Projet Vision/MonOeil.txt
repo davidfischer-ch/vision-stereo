@@ -1,0 +1,12 @@
+java GetCentre c:\echange\MonOeil4.png c:\echange\MonO
+eil5.png c:\echange\MonOeil6.png c:\echange\MonOeil8.png c:\echange\MonOeil14.pn
+g c:\echange\MonOeil15.png c:\echange\MonOeil16.png c:\echange\MonOeil22.png
+
+106     68      c:\echange\MonOeil4.png: centre=(70.48221343873517, 33.45059288537549) environ OK mais c'est du bol
+94      67      c:\echange\MonOeil5.png: centre=(26.70137825421133, 22.156202143950996) pas ok
+103     69      c:\echange\MonOeil6.png: centre=(55.10126582278481, 34.40506329113924) ok
+61      47      c:\echange\MonOeil8.png: centre=(9.13312693498452, 20.984520123839008) pas ok
+64      49      c:\echange\MonOeil14.png: centre=(50.158940397350996, 28.102649006622517) pas ok
+69      37      c:\echange\MonOeil15.png: centre=(59.85, 23.8) pas ok
+91      61      c:\echange\MonOeil16.png: centre=(39.90243902439025, 23.170731707317074) pas ok
+98      65      c:\echange\MonOeil22.png: centre=(56.40625, 25.734375) environ ok mais c'est du bol

@@ -1,0 +1,315 @@
+ -- Copyright (C) 1991-2006 Altera Corporation
+ -- Your use of Altera Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Altera Program License 
+ -- Subscription Agreement, Altera MegaCore Function License 
+ -- Agreement, or other applicable license agreement, including, 
+ -- without limitation, that your use is for the sole purpose of 
+ -- programming logic devices manufactured by Altera and sold by 
+ -- Altera or its authorized distributors.  Please refer to the 
+ -- applicable agreement for further details.
+ -- 
+ -- This is a Quartus II output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus II input file. This file cannot be used
+ -- to make Quartus II pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus II help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.5V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --					Bank 1:		3.3V
+ --					Bank 2:		3.3V
+ --					Bank 3:		3.3V
+ --					Bank 4:		3.3V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --					It can also be used to report unused dedicated pins. The connection
+ --					on the board for unused dedicated pins depends on whether this will
+ --					be used in a future design. One example is device migration. When
+ --					using device migration, refer to the device pin-tables. If it is a
+ --					GND pin in the pin table or if it will not be used in a future design
+ --					for another purpose the it MUST be connected to GND. If it is an unused
+ --					dedicated pin, then it can be connected to a valid signal on the board
+ --					(low, high, or toggling) if that signal is required for a different
+ --					revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --					This pin should be connected to GND. It may also be connected  to a
+ --					valid signal  on the board  (low, high, or toggling)  if that signal
+ --					is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin.   This pin can either be left unconnected or
+ --           	    connected to GND.  Connecting this pin to GND will improve the
+ --           	    device's immunity to noise.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ ---------------------------------------------------------------------------------
+
+Quartus II Version 6.0 Build 202 06/20/2006 Service Pack 1 SJ Web Edition
+CHIP  "VisionStereo"  ASSIGNED TO AN: EP1C12F256C7
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+GND                          : A1        : gnd    :                   :         :           :                
+RESERVED_INPUT               : A2        :        :                   :         : 2         :                
+VCCIO2                       : A3        : power  :                   : 3.3V    : 2         :                
+RESERVED_INPUT               : A4        :        :                   :         : 2         :                
+GND                          : A5        : gnd    :                   :         :           :                
+titiTrame[13]                : A6        : output : LVTTL             :         : 2         : N              
+VCCINT                       : A7        : power  :                   : 1.5V    :           :                
+titiTrame[0]                 : A8        : output : LVTTL             :         : 2         : N              
+hslSyncVHP[0]                : A9        : output : LVTTL             :         : 2         : N              
+VCCINT                       : A10       : power  :                   : 1.5V    :           :                
+hslSyncVHP[2]                : A11       : output : LVTTL             :         : 2         : N              
+GND                          : A12       : gnd    :                   :         :           :                
+hslVert[1]                   : A13       : output : LVTTL             :         : 2         : N              
+VCCIO2                       : A14       : power  :                   : 3.3V    : 2         :                
+RESERVED_INPUT               : A15       :        :                   :         : 2         :                
+GND                          : A16       : gnd    :                   :         :           :                
+outFD[14]                    : B1        : output : LVTTL             :         : 1         : Y              
+RESERVED_INPUT               : B2        :        :                   :         : 2         :                
+RESERVED_INPUT               : B3        :        :                   :         : 2         :                
+RESERVED_INPUT               : B4        :        :                   :         : 2         :                
+RESERVED_INPUT               : B5        :        :                   :         : 2         :                
+hslLuminance[5]              : B6        : output : LVTTL             :         : 2         : N              
+titiTrame[12]                : B7        : output : LVTTL             :         : 2         : N              
+titiTrame[4]                 : B8        : output : LVTTL             :         : 2         : N              
+hslRouge[0]                  : B9        : output : LVTTL             :         : 2         : N              
+hslRouge[2]                  : B10       : output : LVTTL             :         : 2         : N              
+hslRouge[3]                  : B11       : output : LVTTL             :         : 2         : N              
+RESERVED_INPUT               : B12       :        :                   :         : 2         :                
+RESERVED_INPUT               : B13       :        :                   :         : 2         :                
+RESERVED_INPUT               : B14       :        :                   :         : 2         :                
+RESERVED_INPUT               : B15       :        :                   :         : 2         :                
+RESERVED_INPUT               : B16       :        :                   :         : 3         :                
+VCCIO1                       : C1        : power  :                   : 3.3V    : 1         :                
+RESERVED_INPUT               : C2        :        :                   :         : 1         :                
+outFD[15]                    : C3        : output : LVTTL             :         : 1         : Y              
+RESERVED_INPUT               : C4        :        :                   :         : 2         :                
+titiTrame[14]                : C5        : output : LVTTL             :         : 2         : N              
+hslVert[6]                   : C6        : output : LVTTL             :         : 2         : N              
+titiTrame[6]                 : C7        : output : LVTTL             :         : 2         : N              
+hslBleu[5]                   : C8        : output : LVTTL             :         : 2         : N              
+hslSaturation[3]             : C9        : output : LVTTL             :         : 2         : N              
+hslSaturation[4]             : C10       : output : LVTTL             :         : 2         : N              
+hslRouge[7]                  : C11       : output : LVTTL             :         : 2         : N              
+RESERVED_INPUT               : C12       :        :                   :         : 2         :                
+RESERVED_INPUT               : C13       :        :                   :         : 2         :                
+RESERVED_INPUT               : C14       :        :                   :         : 3         :                
+RESERVED_INPUT               : C15       :        :                   :         : 3         :                
+VCCIO3                       : C16       : power  :                   : 3.3V    : 3         :                
+outFD[6]                     : D1        : output : LVTTL             :         : 1         : Y              
+outFD[8]                     : D2        : output : LVTTL             :         : 1         : Y              
+outFD[11]                    : D3        : output : LVTTL             :         : 1         : Y              
+~LVDS23p/INIT_DONE~ / RESERVED : D4        : output : LVTTL             :         : 1         : N              
+hslLuminance[3]              : D5        : output : LVTTL             :         : 2         : N              
+titiTrame[5]                 : D6        : output : LVTTL             :         : 2         : N              
+hslLuminance[4]              : D7        : output : LVTTL             :         : 2         : N              
+titiTrame[8]                 : D8        : output : LVTTL             :         : 2         : N              
+hslBleu[1]                   : D9        : output : LVTTL             :         : 2         : N              
+hslVert[5]                   : D10       : output : LVTTL             :         : 2         : N              
+hslTeinte[0]                 : D11       : output : LVTTL             :         : 2         : N              
+hslRouge[1]                  : D12       : output : LVTTL             :         : 2         : N              
+RESERVED_INPUT               : D13       :        :                   :         : 3         :                
+RESERVED_INPUT               : D14       :        :                   :         : 3         :                
+RESERVED_INPUT               : D15       :        :                   :         : 3         :                
+hslSyncVHP[1]                : D16       : output : LVTTL             :         : 3         : N              
+outFD[2]                     : E1        : output : LVTTL             :         : 1         : Y              
+outFD[7]                     : E2        : output : LVTTL             :         : 1         : Y              
+outFD[9]                     : E3        : output : LVTTL             :         : 1         : Y              
+outFD[10]                    : E4        : output : LVTTL             :         : 1         : Y              
+RESERVED_INPUT               : E5        :        :                   :         : 2         :                
+titiTrame[11]                : E6        : output : LVTTL             :         : 2         : N              
+titiTrame[3]                 : E7        : output : LVTTL             :         : 2         : N              
+titiTrame[7]                 : E8        : output : LVTTL             :         : 2         : N              
+hslRouge[5]                  : E9        : output : LVTTL             :         : 2         : N              
+hslLuminance[2]              : E10       : output : LVTTL             :         : 2         : N              
+hslVert[7]                   : E11       : output : LVTTL             :         : 2         : N              
+hslRouge[4]                  : E12       : output : LVTTL             :         : 2         : N              
+RESERVED_INPUT               : E13       :        :                   :         : 3         :                
+RESERVED_INPUT               : E14       :        :                   :         : 3         :                
+hslRouge[6]                  : E15       : output : LVTTL             :         : 3         : N              
+hslVert[3]                   : E16       : output : LVTTL             :         : 3         : N              
+outFD[0]                     : F1        : output : LVTTL             :         : 1         : Y              
+outFD[3]                     : F2        : output : LVTTL             :         : 1         : Y              
+outFD[5]                     : F3        : output : LVTTL             :         : 1         : Y              
+outFD[12]                    : F4        : output : LVTTL             :         : 1         : Y              
+titiSynch                    : F5        : output : LVTTL             :         : 1         : N              
+GND                          : F6        : gnd    :                   :         :           :                
+VCCIO2                       : F7        : power  :                   : 3.3V    : 2         :                
+GND                          : F8        : gnd    :                   :         :           :                
+GND                          : F9        : gnd    :                   :         :           :                
+VCCIO2                       : F10       : power  :                   : 3.3V    : 2         :                
+GND                          : F11       : gnd    :                   :         :           :                
+RESERVED_INPUT               : F12       :        :                   :         : 3         :                
+hslVert[2]                   : F13       : output : LVTTL             :         : 3         : N              
+hslBleu[2]                   : F14       : output : LVTTL             :         : 3         : N              
+hslBleu[3]                   : F15       : output : LVTTL             :         : 3         : N              
+hslBleu[7]                   : F16       : output : LVTTL             :         : 3         : N              
+GND+                         : G1        :        :                   :         : 1         :                
+outFD[1]                     : G2        : output : LVTTL             :         : 1         : Y              
+outFD[4]                     : G3        : output : LVTTL             :         : 1         : Y              
+~nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : G4        : input  : LVTTL             :         : 1         : N              
+outFD[13]                    : G5        : output : LVTTL             :         : 1         : Y              
+VCCIO1                       : G6        : power  :                   : 3.3V    : 1         :                
+GND                          : G7        : gnd    :                   :         :           :                
+VCCINT                       : G8        : power  :                   : 1.5V    :           :                
+GND                          : G9        : gnd    :                   :         :           :                
+VCCINT                       : G10       : power  :                   : 1.5V    :           :                
+GND                          : G11       : gnd    :                   :         :           :                
+RESERVED_INPUT               : G12       :        :                   :         : 3         :                
+hslBleu[0]                   : G13       : output : LVTTL             :         : 3         : N              
+titiTrame[10]                : G14       : output : LVTTL             :         : 3         : N              
+hslLuminance[6]              : G15       : output : LVTTL             :         : 3         : N              
+GND+                         : G16       :        :                   :         : 3         :                
+Clock48MHz                   : H1        : input  : LVTTL             :         : 1         : Y              
+DATA0                        : H2        : input  :                   :         : 1         :                
+nCONFIG                      : H3        :        :                   :         : 1         :                
+nCEO                         : H4        :        :                   :         : 1         :                
+outFLAGD                     : H5        : output : LVTTL             :         : 1         : Y              
+VCCA_PLL1                    : H6        : power  :                   : 1.5V    :           :                
+VCCINT                       : H7        : power  :                   : 1.5V    :           :                
+GND                          : H8        : gnd    :                   :         :           :                
+VCCINT                       : H9        : power  :                   : 1.5V    :           :                
+GND                          : H10       : gnd    :                   :         :           :                
+VCCA_PLL2                    : H11       : power  :                   : 1.5V    :           :                
+hslTeinte[5]                 : H12       : output : LVTTL             :         : 3         : N              
+RESERVED_INPUT               : H13       :        :                   :         : 3         :                
+TDI                          : H14       : input  :                   :         : 3         :                
+TDO                          : H15       : output :                   :         : 3         :                
+GND+                         : H16       :        :                   :         : 3         :                
+inIFCLK                      : J1        : input  : LVTTL             :         : 1         : Y              
+MSEL1                        : J2        :        :                   :         : 1         :                
+MSEL0                        : J3        :        :                   :         : 1         :                
+nCE                          : J4        :        :                   :         : 1         :                
+GNDG_PLL1                    : J5        : gnd    :                   :         :           :                
+GNDA_PLL1                    : J6        : gnd    :                   :         :           :                
+GND                          : J7        : gnd    :                   :         :           :                
+VCCINT                       : J8        : power  :                   : 1.5V    :           :                
+GND                          : J9        : gnd    :                   :         :           :                
+VCCINT                       : J10       : power  :                   : 1.5V    :           :                
+GNDA_PLL2                    : J11       : gnd    :                   :         :           :                
+GNDG_PLL2                    : J12       : gnd    :                   :         :           :                
+nSTATUS                      : J13       :        :                   :         : 3         :                
+TCK                          : J14       : input  :                   :         : 3         :                
+TMS                          : J15       : input  :                   :         : 3         :                
+hslSaturation[0]             : J16       : output : LVTTL             :         : 3         : N              
+outFIFOADR[1]                : K1        : output : LVTTL             :         : 1         : Y              
+titiTrame[9]                 : K2        : output : LVTTL             :         : 1         : N              
+~ASDO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : K3        : input  : LVTTL             :         : 1         : N              
+DCLK                         : K4        : bidir  :                   :         : 1         :                
+busC_SDA                     : K5        : bidir  : LVTTL             :         : 1         : Y              
+GND                          : K6        : gnd    :                   :         :           :                
+VCCINT                       : K7        : power  :                   : 1.5V    :           :                
+GND                          : K8        : gnd    :                   :         :           :                
+VCCINT                       : K9        : power  :                   : 1.5V    :           :                
+GND                          : K10       : gnd    :                   :         :           :                
+VCCIO3                       : K11       : power  :                   : 3.3V    : 3         :                
+RESERVED_INPUT               : K12       :        :                   :         : 3         :                
+CONF_DONE                    : K13       :        :                   :         : 3         :                
+RESERVED_INPUT               : K14       :        :                   :         : 3         :                
+hslTeinte[3]                 : K15       : output : LVTTL             :         : 3         : N              
+hslTeinte[6]                 : K16       : output : LVTTL             :         : 3         : N              
+outFIFOADR[0]                : L1        : output : LVTTL             :         : 1         : Y              
+outSLOE                      : L2        : output : LVTTL             :         : 1         : Y              
+inFLAGC                      : L3        : input  : LVTTL             :         : 1         : Y              
+RESERVED_INPUT               : L4        :        :                   :         : 1         :                
+busC_SCL                     : L5        : bidir  : LVTTL             :         : 1         : Y              
+GND                          : L6        : gnd    :                   :         :           :                
+VCCIO4                       : L7        : power  :                   : 3.3V    : 4         :                
+GND                          : L8        : gnd    :                   :         :           :                
+GND                          : L9        : gnd    :                   :         :           :                
+VCCIO4                       : L10       : power  :                   : 3.3V    : 4         :                
+GND                          : L11       : gnd    :                   :         :           :                
+RESERVED_INPUT               : L12       :        :                   :         : 3         :                
+RESERVED_INPUT               : L13       :        :                   :         : 3         :                
+hslTeinte[2]                 : L14       : output : LVTTL             :         : 3         : N              
+RESERVED_INPUT               : L15       :        :                   :         : 3         :                
+hslSaturation[6]             : L16       : output : LVTTL             :         : 3         : N              
+outSLRD                      : M1        : output : LVTTL             :         : 1         : Y              
+outPKTEND                    : M2        : output : LVTTL             :         : 1         : Y              
+inFLAGA                      : M3        : input  : LVTTL             :         : 1         : Y              
+hslVert[0]                   : M4        : output : LVTTL             :         : 1         : N              
+inC_SYNC[0]                  : M5        : input  : LVTTL             :         : 4         : Y              
+hslLuminance[7]              : M6        : output : LVTTL             :         : 4         : N              
+hslSaturation[2]             : M7        : output : LVTTL             :         : 4         : N              
+inC_DATA[9]                  : M8        : input  : LVTTL             :         : 4         : Y              
+inC_DATA[4]                  : M9        : input  : LVTTL             :         : 4         : Y              
+test1                        : M10       : output : LVTTL             :         : 4         : Y              
+titiTrame[15]                : M11       : output : LVTTL             :         : 4         : N              
+test2                        : M12       : output : LVTTL             :         : 4         : Y              
+RESERVED_INPUT               : M13       :        :                   :         : 3         :                
+RESERVED_INPUT               : M14       :        :                   :         : 3         :                
+RESERVED_INPUT               : M15       :        :                   :         : 3         :                
+hslTeinte[4]                 : M16       : output : LVTTL             :         : 3         : N              
+outSLWR                      : N1        : output : LVTTL             :         : 1         : Y              
+inFLAGB                      : N2        : input  : LVTTL             :         : 1         : Y              
+EXT_IOE                      : N3        : output : LVTTL             :         : 1         : Y              
+nReset                       : N4        : input  : LVTTL             :         : 1         : Y              
+titiTrame[1]                 : N5        : output : LVTTL             :         : 4         : N              
+hslLuminance[1]              : N6        : output : LVTTL             :         : 4         : N              
+inC_SYNC[1]                  : N7        : input  : LVTTL             :         : 4         : Y              
+inC_DATA[7]                  : N8        : input  : LVTTL             :         : 4         : Y              
+inC_DATA[3]                  : N9        : input  : LVTTL             :         : 4         : Y              
+hslSaturation[7]             : N10       : output : LVTTL             :         : 4         : N              
+hslLuminance[0]              : N11       : output : LVTTL             :         : 4         : N              
+hslTeinte[7]                 : N12       : output : LVTTL             :         : 4         : N              
+RESERVED_INPUT               : N13       :        :                   :         : 3         :                
+RESERVED_INPUT               : N14       :        :                   :         : 3         :                
+RESERVED_INPUT               : N15       :        :                   :         : 3         :                
+RESERVED_INPUT               : N16       :        :                   :         : 3         :                
+VCCIO1                       : P1        : power  :                   : 3.3V    : 1         :                
+RESERVED_INPUT               : P2        :        :                   :         : 1         :                
+RESERVED_INPUT               : P3        :        :                   :         : 1         :                
+RESERVED_INPUT               : P4        :        :                   :         : 4         :                
+titiTrame[2]                 : P5        : output : LVTTL             :         : 4         : N              
+outC_PWD                     : P6        : output : LVTTL             :         : 4         : Y              
+inC_SYNC[2]                  : P7        : input  : LVTTL             :         : 4         : Y              
+inC_DATA[8]                  : P8        : input  : LVTTL             :         : 4         : Y              
+inC_DATA[2]                  : P9        : input  : LVTTL             :         : 4         : Y              
+test3                        : P10       : output : LVTTL             :         : 4         : Y              
+hslBleu[4]                   : P11       : output : LVTTL             :         : 4         : N              
+hslTeinte[1]                 : P12       : output : LVTTL             :         : 4         : N              
+RESERVED_INPUT               : P13       :        :                   :         : 4         :                
+RESERVED_INPUT               : P14       :        :                   :         : 3         :                
+RESERVED_INPUT               : P15       :        :                   :         : 3         :                
+VCCIO3                       : P16       : power  :                   : 3.3V    : 3         :                
+RESERVED_INPUT               : R1        :        :                   :         : 1         :                
+RESERVED_INPUT               : R2        :        :                   :         : 4         :                
+RESERVED_INPUT               : R3        :        :                   :         : 4         :                
+RESERVED_INPUT               : R4        :        :                   :         : 4         :                
+RESERVED_INPUT               : R5        :        :                   :         : 4         :                
+outC_SNAPSHOT                : R6        : output : LVTTL             :         : 4         : Y              
+inC_EXTSYNC                  : R7        : input  : LVTTL             :         : 4         : Y              
+inC_DATA[5]                  : R8        : input  : LVTTL             :         : 4         : Y              
+inC_DATA[0]                  : R9        : input  : LVTTL             :         : 4         : Y              
+outC_MCLK                    : R10       : output : LVTTL             :         : 4         : Y              
+hslVert[4]                   : R11       : output : LVTTL             :         : 4         : N              
+hslSaturation[1]             : R12       : output : LVTTL             :         : 4         : N              
+RESERVED_INPUT               : R13       :        :                   :         : 4         :                
+RESERVED_INPUT               : R14       :        :                   :         : 4         :                
+test4                        : R15       : output : LVTTL             :         : 4         : Y              
+RESERVED_INPUT               : R16       :        :                   :         : 3         :                
+GND                          : T1        : gnd    :                   :         :           :                
+RESERVED_INPUT               : T2        :        :                   :         : 4         :                
+VCCIO4                       : T3        : power  :                   : 3.3V    : 4         :                
+hslBleu[6]                   : T4        : output : LVTTL             :         : 4         : N              
+GND                          : T5        : gnd    :                   :         :           :                
+outC_NRESET                  : T6        : output : LVTTL             :         : 4         : Y              
+VCCINT                       : T7        : power  :                   : 1.5V    :           :                
+inC_DATA[6]                  : T8        : input  : LVTTL             :         : 4         : Y              
+inC_DATA[1]                  : T9        : input  : LVTTL             :         : 4         : Y              
+VCCINT                       : T10       : power  :                   : 1.5V    :           :                
+hslSaturation[5]             : T11       : output : LVTTL             :         : 4         : N              
+GND                          : T12       : gnd    :                   :         :           :                
+RESERVED_INPUT               : T13       :        :                   :         : 4         :                
+VCCIO4                       : T14       : power  :                   : 3.3V    : 4         :                
+RESERVED_INPUT               : T15       :        :                   :         : 4         :                
+GND                          : T16       : gnd    :                   :         :           :                

@@ -1,0 +1,51 @@
+
+RVB =    255      0      0  et HSL =      0    256    127
+RVB =    128    255    128  et HSL =     85    252    191
+RVB =      0      0    128  et HSL =    170    256     64
+RVB =    128    128    128  et HSL =      0      0    128
+
+RVB =      0     99    128  et HSL =    137    256     64
+RVB =    121     12    177  et HSL =    198    223     94
+RVB =    242    181    226  et HSL =    224    175    211
+RVB =    107     94     19  et HSL =     36    178     63
+
+RVB =    228      7     68  et HSL =    244    240    117
+RVB =     93    176    117  et HSL =     97     87    134
+RVB =    214     89    166  et HSL =    229    153    151
+RVB =     79      2    215  et HSL =    186    251    108
+
+RVB =    200    171      8  et HSL =     36    236    104
+RVB =     65     84     57  et HSL =     72     49     70
+RVB =    186    253    106  et HSL =     62    245    179
+RVB =     51    166    155  et HSL =    123    135    108
+
+RVB =    172     79    204  et HSL =    202    139    141
+RVB =     37    248    253  et HSL =    128    249    145
+RVB =    158    161     46  et HSL =     43    142    103
+RVB =     23     74     95  et HSL =    140    156     59
+
+RVB =    144    243    144  et HSL =     85    202    193
+RVB =      9    156    193  et HSL =    136    233    101
+RVB =    130     69    242  et HSL =    185    220    155
+RVB =    251    238     35  et HSL =     40    244    143
+
+RVB =    116    151     84  et HSL =     64     72    117
+RVB =    237     64    133  et HSL =    238    209    150
+RVB =    102    233    182  et HSL =    111    189    167
+RVB =    223    146    231  et HSL =    209    161    188
+
+RVB =     88     59     24  et HSL =     23    146     56
+RVB =    209    228     73  et HSL =     47    188    150
+RVB =     74    141    122  et HSL =    115     79    107
+RVB =    195     54    171  et HSL =    220    144    124
+
+RVB =     60    223    220  et HSL =    127    182    141
+RVB =    181    136     13  et HSL =     31    221     97
+RVB =     46     49     62  et HSL =    162     37     54
+RVB =    167    218    111  et HSL =     63    149    164
+
+RVB =     32    131    160  et HSL =    137    170     96
+RVB =    153     44    209  et HSL =    198    166    126
+RVB =     18    213      2  et HSL =     82    251    107
+RVB =    139    126     51  et HSL =     36    118     95
+Appuyez sur une touche pour continuer...

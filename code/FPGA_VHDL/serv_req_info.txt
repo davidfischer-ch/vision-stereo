@@ -1,0 +1,165 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>ERR</sub_system>
+	<callstack>Stack Trace:
+00a4807f: HDB_INSTANCE_NAME::end_child() + 0x70 (DB_HDB)
+02542e64: PJN_NAVIGATOR_WND::on_project_open() + 0x39c (PRJ_PJN)
+02543cb7: PJN_NAVIGATOR_WND::on_project_open() + 0x11ef (PRJ_PJN)
+02544490: PJN_NAVIGATOR_WND::on_project_open() + 0x19c8 (PRJ_PJN)
+1000899d: AFC_CONTROL_BAR::OnWndMsg() + 0x28 (GCL_AFC)
+7c16e0b0: Ordinal6275() + 0x22 (MFC71)
+7c17339d: Ordinal6269() + 0x46 (MFC71)
+7c16e14f: Ordinal1028() + 0x7d (MFC71)
+7c16e1b8: Ordinal1209() + 0x3b (MFC71)
+7c16e1f6: Ordinal1209() + 0x79 (MFC71)
+77d18709: GetDC() + 0x72 (USER32)
+77d187eb: GetDC() + 0x154 (USER32)
+77d189a5: GetWindowLongW() + 0x127 (USER32)
+77d1bccc: DispatchMessageA() + 0xf (USER32)
+
+End-trace
+</callstack>
+	<error>Fatal error detected: Access Violation</error>
+	<date>Fri Nov 17 16:04:58 2006</date>
+	<version>Quartus II Version 6.0 Build 202 06/20/2006 Service Pack 1 SJ Web Edition</version>
+	<full_error>Fatal error detected: Access Violation
+Stack Trace:
+00a4807f: HDB_INSTANCE_NAME::end_child() + 0x70 (DB_HDB)
+02542e64: PJN_NAVIGATOR_WND::on_project_open() + 0x39c (PRJ_PJN)
+02543cb7: PJN_NAVIGATOR_WND::on_project_open() + 0x11ef (PRJ_PJN)
+02544490: PJN_NAVIGATOR_WND::on_project_open() + 0x19c8 (PRJ_PJN)
+1000899d: AFC_CONTROL_BAR::OnWndMsg() + 0x28 (GCL_AFC)
+7c16e0b0: Ordinal6275() + 0x22 (MFC71)
+7c17339d: Ordinal6269() + 0x46 (MFC71)
+7c16e14f: Ordinal1028() + 0x7d (MFC71)
+7c16e1b8: Ordinal1209() + 0x3b (MFC71)
+7c16e1f6: Ordinal1209() + 0x79 (MFC71)
+77d18709: GetDC() + 0x72 (USER32)
+77d187eb: GetDC() + 0x154 (USER32)
+77d189a5: GetWindowLongW() + 0x127 (USER32)
+77d1bccc: DispatchMessageA() + 0xf (USER32)
+
+End-trace
+
+Quartus II Version 6.0 Build 202 06/20/2006 Service Pack 1 SJ Web Edition </full_error>
+</internal_error>
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>ERR</sub_system>
+	<callstack>Stack Trace:
+00a4807f: HDB_INSTANCE_NAME::end_child() + 0x70 (DB_HDB)
+02542e64: PJN_NAVIGATOR_WND::on_project_open() + 0x39c (PRJ_PJN)
+02543cb7: PJN_NAVIGATOR_WND::on_project_open() + 0x11ef (PRJ_PJN)
+02544490: PJN_NAVIGATOR_WND::on_project_open() + 0x19c8 (PRJ_PJN)
+1000899d: AFC_CONTROL_BAR::OnWndMsg() + 0x28 (GCL_AFC)
+7c16e0b0: Ordinal6275() + 0x22 (MFC71)
+7c17339d: Ordinal6269() + 0x46 (MFC71)
+7c16e14f: Ordinal1028() + 0x7d (MFC71)
+7c16e1b8: Ordinal1209() + 0x3b (MFC71)
+7c16e1f6: Ordinal1209() + 0x79 (MFC71)
+77d18709: GetDC() + 0x72 (USER32)
+77d187eb: GetDC() + 0x154 (USER32)
+77d189a5: GetWindowLongW() + 0x127 (USER32)
+77d1bccc: DispatchMessageA() + 0xf (USER32)
+
+End-trace
+</callstack>
+	<error>Fatal error detected: Access Violation</error>
+	<date>Fri Nov 17 16:24:21 2006</date>
+	<version>Quartus II Version 6.0 Build 202 06/20/2006 Service Pack 1 SJ Web Edition</version>
+	<full_error>Fatal error detected: Access Violation
+Stack Trace:
+00a4807f: HDB_INSTANCE_NAME::end_child() + 0x70 (DB_HDB)
+02542e64: PJN_NAVIGATOR_WND::on_project_open() + 0x39c (PRJ_PJN)
+02543cb7: PJN_NAVIGATOR_WND::on_project_open() + 0x11ef (PRJ_PJN)
+02544490: PJN_NAVIGATOR_WND::on_project_open() + 0x19c8 (PRJ_PJN)
+1000899d: AFC_CONTROL_BAR::OnWndMsg() + 0x28 (GCL_AFC)
+7c16e0b0: Ordinal6275() + 0x22 (MFC71)
+7c17339d: Ordinal6269() + 0x46 (MFC71)
+7c16e14f: Ordinal1028() + 0x7d (MFC71)
+7c16e1b8: Ordinal1209() + 0x3b (MFC71)
+7c16e1f6: Ordinal1209() + 0x79 (MFC71)
+77d18709: GetDC() + 0x72 (USER32)
+77d187eb: GetDC() + 0x154 (USER32)
+77d189a5: GetWindowLongW() + 0x127 (USER32)
+77d1bccc: DispatchMessageA() + 0xf (USER32)
+
+End-trace
+
+Quartus II Version 6.0 Build 202 06/20/2006 Service Pack 1 SJ Web Edition </full_error>
+</internal_error>
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>ERR</sub_system>
+	<callstack>Stack Trace:
+0368be91: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8f7b7 (synth_vrfx)
+0368c49a: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8fdc0 (synth_vrfx)
+0368dfd1: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x918f7 (synth_vrfx)
+036bfd82: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0xc36a8 (synth_vrfx)
+03688083: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b9a9 (synth_vrfx)
+03687aca: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b3f0 (synth_vrfx)
+03688067: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b98d (synth_vrfx)
+03687614: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8af3a (synth_vrfx)
+036877b8: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b0de (synth_vrfx)
+03687e97: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b7bd (synth_vrfx)
+036880bb: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b9e1 (synth_vrfx)
+03687614: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8af3a (synth_vrfx)
+036877b8: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b0de (synth_vrfx)
+03687e97: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b7bd (synth_vrfx)
+036880bb: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b9e1 (synth_vrfx)
+03687614: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8af3a (synth_vrfx)
+036877b8: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b0de (synth_vrfx)
+03687e97: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b7bd (synth_vrfx)
+036880bb: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b9e1 (synth_vrfx)
+03687614: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8af3a (synth_vrfx)
+036877b8: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b0de (synth_vrfx)
+03687e97: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b7bd (synth_vrfx)
+036880bb: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b9e1 (synth_vrfx)
+0368724c: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8ab72 (synth_vrfx)
+035f977f: VRFX_ELABORATOR::VRFX_ELABORATOR() + 0x4a2d (synth_vrfx)
+03191968: DllSgnStart() + 0x968 (synth_sgn)
+03191ab5: sgn_start() + 0x2d (synth_sgn)
+0040297f: 0x297f (quartus_map)
+0040baab: 0xbaab (quartus_map)
+8bc31040:
+End-trace
+</callstack>
+	<error>*** Fatal Error: Module: quartus_map.exe Exception: Access Violation</error>
+	<date>Tue Nov 28 12:21:09 2006</date>
+	<version>Quartus II Version 6.0 Build 202 06/20/2006 Service Pack 1 SJ Web Edition</version>
+	<full_error>*** Fatal Error: Module: quartus_map.exe Exception: Access Violation
+Stack Trace:
+0368be91: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8f7b7 (synth_vrfx)
+0368c49a: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8fdc0 (synth_vrfx)
+0368dfd1: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x918f7 (synth_vrfx)
+036bfd82: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0xc36a8 (synth_vrfx)
+03688083: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b9a9 (synth_vrfx)
+03687aca: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b3f0 (synth_vrfx)
+03688067: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b98d (synth_vrfx)
+03687614: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8af3a (synth_vrfx)
+036877b8: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b0de (synth_vrfx)
+03687e97: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b7bd (synth_vrfx)
+036880bb: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b9e1 (synth_vrfx)
+03687614: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8af3a (synth_vrfx)
+036877b8: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b0de (synth_vrfx)
+03687e97: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b7bd (synth_vrfx)
+036880bb: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b9e1 (synth_vrfx)
+03687614: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8af3a (synth_vrfx)
+036877b8: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b0de (synth_vrfx)
+03687e97: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b7bd (synth_vrfx)
+036880bb: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b9e1 (synth_vrfx)
+03687614: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8af3a (synth_vrfx)
+036877b8: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b0de (synth_vrfx)
+03687e97: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b7bd (synth_vrfx)
+036880bb: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8b9e1 (synth_vrfx)
+0368724c: VRFX_ELABORATOR::convert_param_to_vrfx_format() + 0x8ab72 (synth_vrfx)
+035f977f: VRFX_ELABORATOR::VRFX_ELABORATOR() + 0x4a2d (synth_vrfx)
+03191968: DllSgnStart() + 0x968 (synth_sgn)
+03191ab5: sgn_start() + 0x2d (synth_sgn)
+0040297f: 0x297f (quartus_map)
+0040baab: 0xbaab (quartus_map)
+8bc31040:
+End-trace
+
+Quartus II Version 6.0 Build 202 06/20/2006 Service Pack 1 SJ Web Edition </full_error>
+</internal_error>

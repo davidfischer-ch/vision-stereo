@@ -1,0 +1,1161 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+
+/*
+Copyright (C) 1991-2006 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+
+HEADER
+{
+	VERSION = 1;
+	TIME_UNIT = ns;
+	SIMULATION_TIME = 0.0;
+	GRID_PHASE = 0.0;
+	GRID_PERIOD = 20.83;
+	GRID_DUTY_CYCLE = 50;
+}
+
+SIGNAL("busC_SCL")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BIDIR;
+	PARENT = "";
+}
+
+SIGNAL("busC_SDA")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = BIDIR;
+	PARENT = "";
+}
+
+SIGNAL("Clock48MHz")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("inC_EXTSYNC")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("nReset")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("outC_MCLK")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("outC_NRESET")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("outC_PWD")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("outC_SNAPSHOT")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("Controle:inst|sAdresseWDR")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = BUS;
+	WIDTH = 8;
+	LSB_INDEX = 0;
+	DIRECTION = REGISTERED;
+	PARENT = "";
+}
+
+SIGNAL("Controle:inst|sAdresseWDR[7]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sAdresseWDR";
+}
+
+SIGNAL("Controle:inst|sAdresseWDR[6]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sAdresseWDR";
+}
+
+SIGNAL("Controle:inst|sAdresseWDR[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sAdresseWDR";
+}
+
+SIGNAL("Controle:inst|sAdresseWDR[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sAdresseWDR";
+}
+
+SIGNAL("Controle:inst|sAdresseWDR[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sAdresseWDR";
+}
+
+SIGNAL("Controle:inst|sAdresseWDR[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sAdresseWDR";
+}
+
+SIGNAL("Controle:inst|sAdresseWDR[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sAdresseWDR";
+}
+
+SIGNAL("Controle:inst|sAdresseWDR[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sAdresseWDR";
+}
+
+SIGNAL("Controle:inst|sDeviceWDR")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = BUS;
+	WIDTH = 8;
+	LSB_INDEX = 0;
+	DIRECTION = REGISTERED;
+	PARENT = "";
+}
+
+SIGNAL("Controle:inst|sDeviceWDR[7]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDeviceWDR";
+}
+
+SIGNAL("Controle:inst|sDeviceWDR[6]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDeviceWDR";
+}
+
+SIGNAL("Controle:inst|sDeviceWDR[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDeviceWDR";
+}
+
+SIGNAL("Controle:inst|sDeviceWDR[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDeviceWDR";
+}
+
+SIGNAL("Controle:inst|sDeviceWDR[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDeviceWDR";
+}
+
+SIGNAL("Controle:inst|sDeviceWDR[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDeviceWDR";
+}
+
+SIGNAL("Controle:inst|sDeviceWDR[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDeviceWDR";
+}
+
+SIGNAL("Controle:inst|sDeviceWDR[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDeviceWDR";
+}
+
+SIGNAL("Controle:inst|sDonneeWDR")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = BUS;
+	WIDTH = 8;
+	LSB_INDEX = 0;
+	DIRECTION = REGISTERED;
+	PARENT = "";
+}
+
+SIGNAL("Controle:inst|sDonneeWDR[7]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDonneeWDR";
+}
+
+SIGNAL("Controle:inst|sDonneeWDR[6]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDonneeWDR";
+}
+
+SIGNAL("Controle:inst|sDonneeWDR[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDonneeWDR";
+}
+
+SIGNAL("Controle:inst|sDonneeWDR[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDonneeWDR";
+}
+
+SIGNAL("Controle:inst|sDonneeWDR[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDonneeWDR";
+}
+
+SIGNAL("Controle:inst|sDonneeWDR[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDonneeWDR";
+}
+
+SIGNAL("Controle:inst|sDonneeWDR[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDonneeWDR";
+}
+
+SIGNAL("Controle:inst|sDonneeWDR[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sDonneeWDR";
+}
+
+SIGNAL("Controle:inst|sInitWDR")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = BUS;
+	WIDTH = 3;
+	LSB_INDEX = 0;
+	DIRECTION = REGISTERED;
+	PARENT = "";
+}
+
+SIGNAL("Controle:inst|sInitWDR[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sInitWDR";
+}
+
+SIGNAL("Controle:inst|sInitWDR[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sInitWDR";
+}
+
+SIGNAL("Controle:inst|sInitWDR[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = REGISTERED;
+	PARENT = "Controle:inst|sInitWDR";
+}
+
+TRANSITION_LIST("busC_SCL")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL Z FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("busC_SDA")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL Z FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Clock48MHz")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 10.415;
+		NODE
+		{
+			REPEAT = 480076;
+			LEVEL 0 FOR 10.415;
+			LEVEL 1 FOR 10.415;
+		}
+		LEVEL 0 FOR 6.505;
+	}
+}
+
+TRANSITION_LIST("inC_EXTSYNC")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("nReset")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 41.66;
+		LEVEL 1 FOR 9999958.34;
+	}
+}
+
+TRANSITION_LIST("outC_MCLK")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("outC_NRESET")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("outC_PWD")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("outC_SNAPSHOT")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sAdresseWDR[7]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sAdresseWDR[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sAdresseWDR[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sAdresseWDR[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sAdresseWDR[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sAdresseWDR[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sAdresseWDR[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sAdresseWDR[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDeviceWDR[7]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDeviceWDR[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDeviceWDR[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDeviceWDR[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDeviceWDR[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDeviceWDR[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDeviceWDR[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDeviceWDR[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDonneeWDR[7]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDonneeWDR[6]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDonneeWDR[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDonneeWDR[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDonneeWDR[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDonneeWDR[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDonneeWDR[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sDonneeWDR[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sInitWDR[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sInitWDR[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+TRANSITION_LIST("Controle:inst|sInitWDR[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL U FOR 10000000.0;
+	}
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Clock48MHz";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 0;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "nReset";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 1;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "busC_SCL";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 2;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "busC_SDA";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 3;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "outC_MCLK";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 4;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "outC_NRESET";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 5;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "outC_PWD";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 6;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "outC_SNAPSHOT";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 7;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "inC_EXTSYNC";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 8;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sInitWDR";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 9;
+	TREE_LEVEL = 0;
+	CHILDREN = 10, 11, 12;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sInitWDR[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 10;
+	TREE_LEVEL = 1;
+	PARENT = 9;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sInitWDR[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 11;
+	TREE_LEVEL = 1;
+	PARENT = 9;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sInitWDR[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 12;
+	TREE_LEVEL = 1;
+	PARENT = 9;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDeviceWDR";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 13;
+	TREE_LEVEL = 0;
+	CHILDREN = 14, 15, 16, 17, 18, 19, 20, 21;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDeviceWDR[7]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 14;
+	TREE_LEVEL = 1;
+	PARENT = 13;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDeviceWDR[6]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 15;
+	TREE_LEVEL = 1;
+	PARENT = 13;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDeviceWDR[5]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 16;
+	TREE_LEVEL = 1;
+	PARENT = 13;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDeviceWDR[4]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 17;
+	TREE_LEVEL = 1;
+	PARENT = 13;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDeviceWDR[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 18;
+	TREE_LEVEL = 1;
+	PARENT = 13;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDeviceWDR[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 19;
+	TREE_LEVEL = 1;
+	PARENT = 13;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDeviceWDR[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 20;
+	TREE_LEVEL = 1;
+	PARENT = 13;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDeviceWDR[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 21;
+	TREE_LEVEL = 1;
+	PARENT = 13;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sAdresseWDR";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 22;
+	TREE_LEVEL = 0;
+	CHILDREN = 23, 24, 25, 26, 27, 28, 29, 30;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sAdresseWDR[7]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 23;
+	TREE_LEVEL = 1;
+	PARENT = 22;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sAdresseWDR[6]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 24;
+	TREE_LEVEL = 1;
+	PARENT = 22;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sAdresseWDR[5]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 25;
+	TREE_LEVEL = 1;
+	PARENT = 22;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sAdresseWDR[4]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 26;
+	TREE_LEVEL = 1;
+	PARENT = 22;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sAdresseWDR[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 27;
+	TREE_LEVEL = 1;
+	PARENT = 22;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sAdresseWDR[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 28;
+	TREE_LEVEL = 1;
+	PARENT = 22;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sAdresseWDR[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 29;
+	TREE_LEVEL = 1;
+	PARENT = 22;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sAdresseWDR[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 30;
+	TREE_LEVEL = 1;
+	PARENT = 22;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDonneeWDR";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 31;
+	TREE_LEVEL = 0;
+	CHILDREN = 32, 33, 34, 35, 36, 37, 38, 39;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDonneeWDR[7]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 32;
+	TREE_LEVEL = 1;
+	PARENT = 31;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDonneeWDR[6]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 33;
+	TREE_LEVEL = 1;
+	PARENT = 31;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDonneeWDR[5]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 34;
+	TREE_LEVEL = 1;
+	PARENT = 31;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDonneeWDR[4]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 35;
+	TREE_LEVEL = 1;
+	PARENT = 31;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDonneeWDR[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 36;
+	TREE_LEVEL = 1;
+	PARENT = 31;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDonneeWDR[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 37;
+	TREE_LEVEL = 1;
+	PARENT = 31;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDonneeWDR[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 38;
+	TREE_LEVEL = 1;
+	PARENT = 31;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Controle:inst|sDonneeWDR[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Unsigned;
+	TREE_INDEX = 39;
+	TREE_LEVEL = 1;
+	PARENT = 31;
+}
+
+TIME_BAR
+{
+	TIME = 15500;
+	MASTER = TRUE;
+}
+;

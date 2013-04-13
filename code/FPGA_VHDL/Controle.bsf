@@ -1,0 +1,211 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2006 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 264 400)
+	(text "Controle" (rect 5 0 46 12)(font "Arial" ))
+	(text "inst" (rect 8 368 25 380)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Clock24MHz" (rect 0 0 61 12)(font "Arial" ))
+		(text "Clock24MHz" (rect 21 27 82 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "nReset" (rect 0 0 35 12)(font "Arial" ))
+		(text "nReset" (rect 21 43 56 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "inSyncCtrl" (rect 0 0 51 12)(font "Arial" ))
+		(text "inSyncCtrl" (rect 21 59 72 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "inFluxCtrl[15..0]" (rect 0 0 79 12)(font "Arial" ))
+		(text "inFluxCtrl[15..0]" (rect 21 75 100 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "inSyncPos" (rect 0 0 53 12)(font "Arial" ))
+		(text "inSyncPos" (rect 21 91 74 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "inFluxPos[15..0]" (rect 0 0 80 12)(font "Arial" ))
+		(text "inFluxPos[15..0]" (rect 21 107 101 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 248 32)
+		(output)
+		(text "outCfgTypeFlux" (rect 0 0 80 12)(font "Arial" ))
+		(text "outCfgTypeFlux" (rect 147 27 227 39)(font "Arial" ))
+		(line (pt 248 32)(pt 232 32)(line_width 1))
+	)
+	(port
+		(pt 248 48)
+		(output)
+		(text "outCfgPerMoyX[5..0]" (rect 0 0 103 12)(font "Arial" ))
+		(text "outCfgPerMoyX[5..0]" (rect 124 43 227 55)(font "Arial" ))
+		(line (pt 248 48)(pt 232 48)(line_width 3))
+	)
+	(port
+		(pt 248 64)
+		(output)
+		(text "outCfgPerMoyY[5..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "outCfgPerMoyY[5..0]" (rect 121 59 227 71)(font "Arial" ))
+		(line (pt 248 64)(pt 232 64)(line_width 3))
+	)
+	(port
+		(pt 248 80)
+		(output)
+		(text "outCfgPerMoyPre[4..0]" (rect 0 0 114 12)(font "Arial" ))
+		(text "outCfgPerMoyPre[4..0]" (rect 113 75 227 87)(font "Arial" ))
+		(line (pt 248 80)(pt 232 80)(line_width 3))
+	)
+	(port
+		(pt 248 96)
+		(output)
+		(text "outCfgPerMoyDiv[5..0]" (rect 0 0 115 12)(font "Arial" ))
+		(text "outCfgPerMoyDiv[5..0]" (rect 112 91 227 103)(font "Arial" ))
+		(line (pt 248 96)(pt 232 96)(line_width 3))
+	)
+	(port
+		(pt 248 112)
+		(output)
+		(text "outCfgDetMoyX[5..0]" (rect 0 0 105 12)(font "Arial" ))
+		(text "outCfgDetMoyX[5..0]" (rect 122 107 227 119)(font "Arial" ))
+		(line (pt 248 112)(pt 232 112)(line_width 3))
+	)
+	(port
+		(pt 248 128)
+		(output)
+		(text "outCfgDetMoyY[5..0]" (rect 0 0 107 12)(font "Arial" ))
+		(text "outCfgDetMoyY[5..0]" (rect 120 123 227 135)(font "Arial" ))
+		(line (pt 248 128)(pt 232 128)(line_width 3))
+	)
+	(port
+		(pt 248 144)
+		(output)
+		(text "outCfgDetMoyPre[4..0]" (rect 0 0 115 12)(font "Arial" ))
+		(text "outCfgDetMoyPre[4..0]" (rect 112 139 227 151)(font "Arial" ))
+		(line (pt 248 144)(pt 232 144)(line_width 3))
+	)
+	(port
+		(pt 248 160)
+		(output)
+		(text "outCfgDetMoyDiv[5..0]" (rect 0 0 116 12)(font "Arial" ))
+		(text "outCfgDetMoyDiv[5..0]" (rect 111 155 227 167)(font "Arial" ))
+		(line (pt 248 160)(pt 232 160)(line_width 3))
+	)
+	(port
+		(pt 248 176)
+		(output)
+		(text "outCfgDetDebX[10..0]" (rect 0 0 109 12)(font "Arial" ))
+		(text "outCfgDetDebX[10..0]" (rect 118 171 227 183)(font "Arial" ))
+		(line (pt 248 176)(pt 232 176)(line_width 3))
+	)
+	(port
+		(pt 248 192)
+		(output)
+		(text "outCfgDetDebY[10..0]" (rect 0 0 112 12)(font "Arial" ))
+		(text "outCfgDetDebY[10..0]" (rect 115 187 227 199)(font "Arial" ))
+		(line (pt 248 192)(pt 232 192)(line_width 3))
+	)
+	(port
+		(pt 248 208)
+		(output)
+		(text "outCfgDetFinX[10..0]" (rect 0 0 105 12)(font "Arial" ))
+		(text "outCfgDetFinX[10..0]" (rect 122 203 227 215)(font "Arial" ))
+		(line (pt 248 208)(pt 232 208)(line_width 3))
+	)
+	(port
+		(pt 248 224)
+		(output)
+		(text "outCfgDetFinY[10..0]" (rect 0 0 107 12)(font "Arial" ))
+		(text "outCfgDetFinY[10..0]" (rect 120 219 227 231)(font "Arial" ))
+		(line (pt 248 224)(pt 232 224)(line_width 3))
+	)
+	(port
+		(pt 248 240)
+		(output)
+		(text "outFluxPos[21..0]" (rect 0 0 87 12)(font "Arial" ))
+		(text "outFluxPos[21..0]" (rect 140 235 227 247)(font "Arial" ))
+		(line (pt 248 240)(pt 232 240)(line_width 3))
+	)
+	(port
+		(pt 248 288)
+		(output)
+		(text "outSO1" (rect 0 0 36 12)(font "Arial" ))
+		(text "outSO1" (rect 191 283 227 295)(font "Arial" ))
+		(line (pt 248 288)(pt 232 288)(line_width 1))
+	)
+	(port
+		(pt 248 304)
+		(output)
+		(text "outSO2" (rect 0 0 36 12)(font "Arial" ))
+		(text "outSO2" (rect 191 299 227 311)(font "Arial" ))
+		(line (pt 248 304)(pt 232 304)(line_width 1))
+	)
+	(port
+		(pt 248 320)
+		(output)
+		(text "outSO3" (rect 0 0 36 12)(font "Arial" ))
+		(text "outSO3" (rect 191 315 227 327)(font "Arial" ))
+		(line (pt 248 320)(pt 232 320)(line_width 1))
+	)
+	(port
+		(pt 248 336)
+		(output)
+		(text "outSO4" (rect 0 0 36 12)(font "Arial" ))
+		(text "outSO4" (rect 191 331 227 343)(font "Arial" ))
+		(line (pt 248 336)(pt 232 336)(line_width 1))
+	)
+	(port
+		(pt 248 256)
+		(bidir)
+		(text "busSCL" (rect 0 0 38 12)(font "Arial" ))
+		(text "busSCL" (rect 189 251 227 263)(font "Arial" ))
+		(line (pt 248 256)(pt 232 256)(line_width 1))
+	)
+	(port
+		(pt 248 272)
+		(bidir)
+		(text "busSDA" (rect 0 0 40 12)(font "Arial" ))
+		(text "busSDA" (rect 187 267 227 279)(font "Arial" ))
+		(line (pt 248 272)(pt 232 272)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 232 368)(line_width 1))
+	)
+)
