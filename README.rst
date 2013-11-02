@@ -1,6 +1,8 @@
+============================
 Vision Stéréoscopique (2006)
 ============================
 
+-----
 About
 -----
 
@@ -19,11 +21,12 @@ It is actually implemented in French and translation is not planned, however, do
 * ``docs`` Some documentation (datasheets, boards, photos)
 * ``report`` My diploma thesis
 
+-----
 References
 ----------
 
 Algorithms
-^^^^^^^^^^
+==========
 
 * `Cours de traitement d'images <http://www.ensta.fr/~manzaner/Support_Cours.html>`_ 
 * `Cours de morphologie mathématique <http://cmm.ensmp.fr/~serra/cours/index.htm>`_
@@ -35,15 +38,15 @@ Algorithms
 * Wikipedia `HSL and HSV <http://en.wikipedia.org/wiki/HLS_color_space>`_
 
 Hardware
-^^^^^^^^
+========
 
 * Altera `Cyclone FPGA <http://www.altera.com/products/devices/cyclone/cyc-index.jsp>`_
 * DigChip `IC database <http://www.digchip.com/>`_
 * National Semiconductor `Main page <http://www.national.com/>`_
 * RokEPXA board from EPFL `(broken link) <http://lamipc54.epfl.ch/realtimeembeddedsystems/RokEPXA/>`_ and `SOC/ARM Module on FPGAi <http://ic-sg.epfl.ch/projets_dipl/form/oldPages/page2003SIN.html>`_
 
-Misc
-^^^^
+Miscellaneous
+=============
 
 * Microsoft `Using Video Capture <http://msdn.microsoft.com/library/default.asp?url=/library/en-us/multimed/htm/_win32_capturing_data.asp>`_
 * ONVERSITY `Norme IEEE 754 <http://www.onversity.net/cgi-bin/progactu/actu_aff.cgi?Eudo=bgteob&P=00000453>`_
